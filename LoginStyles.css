@@ -1,0 +1,422 @@
+.container{
+    
+    align : center;
+    position: absolute;
+    width: 405px;
+    height: 593px;
+    left: 553px;
+    top: 64px;
+
+    background: #FFFFFF;
+    border: 0.7px solid #565656;
+    border-radius: 25px;
+}
+
+
+
+
+    
+.EmailB {
+    box-sizing: border-box;
+    display: flex;
+    flex: auto;
+    
+    position: absolute;
+    background: #FFFFFF;
+    border: 0.7px solid #565656;
+    border-radius: 18px;
+
+}
+    
+.PwdB {
+    box-sizing: border-box;
+    display: flex;
+    flex: auto;
+    position: absolute;
+    background: #FFFFFF;
+    border: 0.7px solid #565656;
+    border-radius: 18px;
+
+}
+
+
+
+
+/* login interface */
+/*
+position: absolute;
+width: 605px;
+height: 793px;
+left: 453px;
+top: 94px;
+
+
+
+/* Rectangle 475 
+
+position: absolute;
+width: 605px;
+height: 793px;
+left: 453px;
+top: 94px;
+
+background: #FFFFFF;
+border: 0.7px solid #565656;
+border-radius: 25px;
+
+
+/* Continue with Google / Centre / Fixed */
+/*
+position: absolute;
+width: 435px;
+height: 60px;
+left: 539px;
+top: 683px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.084), 0px 2px 3px rgba(0, 0, 0, 0.168);
+border-radius: 40px;
+*/
+
+/* Frame 6 */
+
+/* Auto layout 
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 15px;
+gap: 15px;
+
+position: absolute;
+width: 236px;
+height: 54px;
+left: calc(50% - 236px/2);
+top: calc(50% - 54px/2);
+
+background: #FFFFFF;
+border-radius: 10px;
+
+
+/* Google Logo 
+
+width: 24px;
+height: 24px;
+
+background: #FFFFFF;
+
+/* Inside auto layout 
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* logo googleg 48dp 
+
+position: absolute;
+left: 2.08%;
+right: 2.08%;
+top: 2.08%;
+bottom: 2.08%;
+
+
+
+/* Shape 
+
+position: absolute;
+width: 11.04px;
+height: 10.8px;
+left: 12px;
+top: 9.91px;
+
+background: #4285F4;
+
+
+/* Shape 
+
+position: absolute;
+width: 17.89px;
+height: 9.31px;
+left: 1.72px;
+top: 14.18px;
+
+background: #34A853;
+
+
+/* Shape 
+
+position: absolute;
+width: 5.07px;
+height: 10.33px;
+left: 0.5px;
+top: 6.84px;
+
+background: #FBBC05;
+
+
+/* Shape 
+
+position: absolute;
+width: 17.97px;
+height: 9.31px;
+left: 1.72px;
+top: 0.5px;
+
+background: #EA4335;
+
+
+/* Shape 
+
+position: absolute;
+width: 23px;
+height: 23px;
+left: 0.5px;
+top: 0.5px;
+
+
+
+/* Continue with Google 
+
+width: 167px;
+height: 23px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+
+color: rgba(0, 0, 0, 0.54);
+
+
+/* Inside auto layout 
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* Log in 
+
+position: absolute;
+width: 121px;
+height: 59px;
+left: calc(50% - 121px/2 + 0.5px);
+top: 239px;
+
+font-family: 'Actor';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 48px;
+
+color: #1A1A1A;
+
+
+
+/* Group 4 
+
+position: absolute;
+width: 249px;
+height: 20px;
+left: 631px;
+top: 588px;
+
+
+
+/* Description 
+
+position: absolute;
+width: 158px;
+height: 20px;
+left: calc(50% - 158px/2 - 46px);
+top: 588px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+/* identical to box height, or 133% 
+letter-spacing: 0.3px;
+
+/* Black-900 (#1A1A1A) 
+color: #1A1A1A;
+
+
+
+/* Description 
+
+position: absolute;
+width: 85px;
+height: 20px;
+left: calc(50% - 85px/2 + 81.5px);
+top: 588px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+
+/* identical to box height, or 133% 
+text-align: right;
+letter-spacing: 0.3px;
+
+/* System-Blue (#007AFF) 
+color: #007AFF;
+
+
+
+/* login button 
+
+position: absolute;
+width: 435.93px;
+height: 50.22px;
+left: 537px;
+top: 513px;
+
+
+
+/* Rectangle 478 
+
+position: absolute;
+width: 435.93px;
+height: 50.22px;
+left: 0px;
+top: 0px;
+
+background: #06283D;
+border-radius: 25px;
+
+
+/* Login 
+
+position: absolute;
+width: 50.22px;
+height: 23.1px;
+left: 191.85px;
+top: 14.06px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+/* identical to box height 
+
+color: #FFFFFF;
+
+
+
+/* password 
+
+position: absolute;
+width: 435.09px;
+height: 62.28px;
+left: 538.7px;
+top: 413px;
+
+
+
+/* Rectangle 478 
+
+box-sizing: border-box;
+
+position: absolute;
+width: 435.09px;
+height: 62.28px;
+left: 538.7px;
+top: 413px;
+
+background: #FFFFFF;
+border: 0.7px solid #565656;
+border-radius: 18px;
+
+
+/* Password 
+
+position: absolute;
+width: 96px;
+height: 20px;
+left: 608px;
+top: calc(50% - 20px/2 - 47px);
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #5F5F5F;
+
+
+
+/* username  
+
+position: absolute;
+width: 435.09px;
+height: 120px;
+left: 539.12px;
+top: 335px;
+
+
+
+/* Rectangle 477 
+
+box-sizing: border-box;
+
+position: absolute;
+width: 435.09px;
+height: 62.28px;
+left: 539.12px;
+top: 335px;
+
+background: #FFFFFF;
+border: 0.7px solid #565656;
+border-radius: 18px;
+
+
+/* Username or Email 
+
+position: absolute;
+width: 157px;
+height: 22px;
+left: 606px;
+top: 356px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+
+color: #5F5F5F;
+
+
+
+/* key 1 
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 561px;
+top: 433px;
+
+background: url(key.png);
+
+
+/* user 1 
+
+position: absolute;
+width: 22px;
+height: 22px;
+left: 561px;
+top: 355px;
+
+background: url(user.png);
+
+*/
+
+
+
+

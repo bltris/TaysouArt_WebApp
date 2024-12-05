@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.header {
+  background-color: #222;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  
+  height: 20vh;
+  width: 100%;
+  position: fixed ;
+  top: 0;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.contact a{
+  color:#333 ;
+}
+
+a{
+  color: aliceblue;
+}
+
+main {
+  padding-top: 10%;
+  
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
+.artist_img{
+    width: 16rem;
+    height: 17rem;
+    border-radius: 8px 8px;
+}
+
+.login-btn {
+    font-size: 16px;
+    font-weight: 500;
+    color: #d6d6d6;
+    background-color: #444444;
+    padding: 10px 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+
+    
+  }
+
+.intro, .gallery, .contact {
+  padding: 2rem;
+  text-align: center;
+}
+  
+.Desc_container {
+  padding-top: 20%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+  padding: 4rem;
+}
+#desc {
+  padding-left: 17%;
+}
+
+
+.images img {
+  width: 200px;
+  margin: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+
+@media (max-width: 992px) {
+  .body {
+    padding: 0;
+  }
+}
