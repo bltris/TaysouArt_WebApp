@@ -14,6 +14,9 @@ body {
     width: 100%;
     position: fixed ;
     top: 0;
+    overflow: hidden;
+    z-index: 1000;
+    height: 20vh;
   
   }
   
@@ -29,8 +32,14 @@ body {
     color: white;
     text-decoration: none;
   }
+  .nav a:hover {
+    color: #6192a0;
+}
+#active{
+    color: #6192a0;
+  }
 
-  a{
+  .info a{
     text-decoration: none;
     color: gray;
   }
@@ -48,3 +57,19 @@ body {
     text-align: center;
     padding: 1rem 0;
   }
+
+  /*insta btn*/
+  .insta-btn {
+    display: flex;
+    padding: 10px;
+    background-color: #e1306c;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;    
+    
+}
+.insta-btn img {
+    display: flex;
+    justify-content: center;
+
+}

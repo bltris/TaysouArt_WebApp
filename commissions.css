@@ -17,8 +17,9 @@ body {
   height: 20vh;
 
   position: fixed;
-  overflow: hidden;
   top: 0;
+  overflow: hidden;
+  z-index: 1000;
 }
 .nav ul {
     list-style: none;
@@ -32,9 +33,9 @@ body {
     color: #6192a0;
   }
 
-.nav a:current{
+/*.nav a:current{
     color: #6192a0;
-}
+}*/
 .nav a{
     color: white;
     text-decoration: none;
@@ -44,11 +45,15 @@ body {
     color: #6192a0;
 }
 
+#active{
+  color: #6192a0;
+}
 
 /*--main: 2 sections--*/
 main{
   display: flex;
   justify-content: center;
+
   height: 90vh;
   width: 100%;
   margin-top: 10%;
@@ -60,9 +65,12 @@ main{
   align-items: center;
   display: flex;
   /*flex-direction: row;*/
-  gap: 15rem;
+  gap: 20rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
+    
+
+
 }
 /*
 .title{
@@ -179,6 +187,10 @@ main{
     padding: 0;
     margin: 0;
     width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    right: 0;
     /* display: flex; */
     /* align-items: center; */
   }
@@ -188,5 +200,7 @@ main{
     height: 100%;
     padding: 1rem;
     margin: 0;
+   
+
   }
   
