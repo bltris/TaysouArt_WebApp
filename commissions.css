@@ -64,11 +64,12 @@ main{
 .allContent{
   align-items: center;
   display: flex;
-  /*flex-direction: row;*/
+  flex-direction: row;
+  justify-content: space-between;
   gap: 20rem;
   padding-top: 8rem;
   padding-bottom: 8rem;
-    
+  
 
 
 }
@@ -123,10 +124,18 @@ main{
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 10px;
-    color: #575757;
+    color: #757575;
     background: #f9f9f9;
     width: 100%;
+    font-size: 14px;
   }
+
+  .input-group .details {
+    height: 150px;
+    width: 100%;
+
+  }
+  
 
   .input-group {
       position: relative;
@@ -204,3 +213,25 @@ main{
 
   }
   
+  .Pcontainer, .PCcontainer {
+    padding: 50px;
+}
+
+  @media (max-width: 768px) {
+    .Pcontainer, .PCcontainer {
+        margin-bottom: 20px; /* Add spacing between stacked sections */
+    }
+}
+
+
+
+@media (max-width: 768px) { /* Adjust breakpoint as needed */
+    .allContent {
+        flex-direction: column; /* Stack sections vertically */
+        align-items: center; /* Center align the content */
+    }
+
+    .section {
+        width: 100%; /* Ensure full width on smaller screens */
+    }
+}
